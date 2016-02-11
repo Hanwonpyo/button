@@ -1,0 +1,11 @@
+package button;st;
+import java.util.List;
+
+public interface Subject {
+	
+	Vector buttonList = new Vector();
+	
+	public void add(Observer observer);
+	public void delete(Observer observer);
+	public void notifyObserver();
+}

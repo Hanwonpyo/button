@@ -1,0 +1,6 @@
+package button;
+
+public class main {
+
+	GUI testGUI=new GUI();
+}

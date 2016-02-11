@@ -1,0 +1,24 @@
+package button;
+
+import javax.swing.JButton;
+
+public class buttonFactory {
+	
+	JButton button;
+	public JButton makeButton(int i) {
+		if(i==0)
+			button=new Button("1");
+		if(i==1)
+			button=new JButton("2");
+		if(i==2)
+			button=new JButton("3");
+		if(i==3)
+			button=new JButton("4");
+		if(i==4)
+			button=new JButton("allo");
+		if(i==5)
+			button=new JButton("allx");
+		
+		return button;
+	}
+}

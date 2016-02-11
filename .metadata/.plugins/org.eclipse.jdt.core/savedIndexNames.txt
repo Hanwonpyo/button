@@ -1,0 +1,2 @@
+INDEX VERSION 1.127+C:\Users\ÇÑ¿øÇ¥\Desktop\code\Button\.metadata\.plugins\org.eclipse.jdt.core
+4074590499.index

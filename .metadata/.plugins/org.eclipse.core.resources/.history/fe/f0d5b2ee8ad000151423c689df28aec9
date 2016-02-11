@@ -1,0 +1,12 @@
+package button;
+import java.util.ArrayList;
+import java.util.List;
+
+public interface Subject {
+	
+	List buttonList = new ArrayList();
+	
+	public void add(Observer observer);
+	public void delete(Observer observer);
+	public void notifyObserver();	
+}

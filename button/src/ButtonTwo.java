@@ -1,0 +1,10 @@
+
+
+public class ButtonTwo extends Button{
+
+	public ButtonTwo(String string) {
+		super(string);
+		// TODO Auto-generated constructor stub
+	}
+
+}

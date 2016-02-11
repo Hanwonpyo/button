@@ -1,0 +1,13 @@
+package button;
+
+import javax.swing.JButton;
+
+public class Button extends JButton implements Observer{
+
+	@Override
+	public void notifyObserver(int n) {
+		// TODO Auto-generated method stub
+		
+	}
+		
+}

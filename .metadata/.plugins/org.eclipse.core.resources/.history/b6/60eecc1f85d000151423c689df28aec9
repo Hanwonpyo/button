@@ -1,0 +1,9 @@
+package button;
+
+public class subject {
+	
+	observer
+	//add
+	//remove
+	//notify
+}

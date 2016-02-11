@@ -1,0 +1,32 @@
+package button;
+
+import java.awt.GridLayout;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import javax.swing.JFrame;
+
+public class GUI extends JFrame implements ActionListener {
+	
+	private JFrame frame=new JFrame("Button Example");
+	private Button button[]=new Button[10];
+	GUI() {
+		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		frame.setSize(200,120);
+		frame.setLayout(new GridLayout(1,6));
+		frame.setVisible(true); 
+		addButton();
+	}
+	
+	private void addButton() {
+		for(int i=0;i<5;i++) {
+			button[i]= new Button("12738123");
+			button[i].addActionListener(this);
+			frame.add(button[i]);
+		}
+	}	
+	@Override
+	public void actionPerformed(ActionEvent arg0) {
+		// TODO Auto-generated method stub
+		
+	}
+}

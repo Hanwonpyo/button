@@ -1,0 +1,9 @@
+package button;
+
+public interface subject {
+	public void add(Observer observer);
+	public void delete(Obserer observer);
+	public void notifyObserver();
+	
+	
+}

@@ -1,0 +1,9 @@
+package button;
+
+public interface Observer {
+
+	public void notifyObserver()
+	{
+		
+	}
+}
